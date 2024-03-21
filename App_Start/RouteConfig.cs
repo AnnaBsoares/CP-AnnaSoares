@@ -22,8 +22,8 @@ namespace anna
             );
 
             routes.MapRoute(
-                name: "Home",
-                url: "",
+                name: "Contact",
+                url: "Contact",
                 defaults: new { controller = "Home", action = "Index" }
             );
         }
